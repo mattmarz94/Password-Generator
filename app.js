@@ -4,7 +4,9 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 let pass1 = document.getElementById("pass1");
 let pass2 = document.getElementById("pass2");
 
-let password = ""
+let password1 = ""
+let password2 = ""
+
 const length = 15;
 
 function generatePasscode() {
