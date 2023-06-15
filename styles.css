@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #111827;
+    font-family: Karla, 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 500px;
+    min-height: auto;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+h1.text {
+    color: #34D399;
+    margin: 0px;
+    font-size: 40px;    
+}
+
+p {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 0;
+}
+
+button.gen-pass {
+    color: white;
+    font-size: 20px;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: #34D399;
+    border: none;
+    border-radius: 10px;
+    max-width: 250px
+}
+
+button.gen-pass:hover {
+    color: wheat;
+    background-color: #10B981;
+    font-size: 22px;
+    margin-top: 48px;
+}
+
+.line {
+    margin-top: 30px;
+    border: 1px solid #2F3E53;
+}
+
+div.random-passwords {
+    text-align: center;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+#pass1, #pass2 {
+    background-color: #273549;
+    color: #34D399;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 50px;
+}
