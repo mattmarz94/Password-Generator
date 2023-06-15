@@ -8,13 +8,10 @@ let password = ""
 const length = 15;
 
 function generatePasscode() {
-    for (let i = 0; i < characters.length; i++){
-    password = Math.floor(Math.random() * characters.length) 
-    pass1.textContent = characters[password] 
-    }
-    
-    for (let i = 0; i < characters.length; i++){
-    password = Math.floor(Math.random() * characters.length)
-    pass2.textContent = characters[password]
+    for (let i = 0; i < length; i++){
+    password1 += characters[Math.floor(Math.random() * characters.length)]
+    pass1.textContent = password1;
+    password2 += characters[Math.floor(Math.random() * characters.length)]
+    pass2.textContent = password2;
     }
 }
