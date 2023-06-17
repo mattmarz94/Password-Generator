@@ -3,13 +3,11 @@ const characters = ["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O"
 
 let pass1 = document.getElementById("pass1");
 let pass2 = document.getElementById("pass2");
-
-let password1 = ""
-let password2 = ""
-
 const length = 15;
 
 function generatePasscode() {
+    let password1 = ""
+    let password2 = ""
     for (let i = 0; i < length; i++){
     password1 += characters[Math.floor(Math.random() * characters.length)]
     pass1.textContent = password1;

@@ -45,33 +45,6 @@ button.gen-pass:hover {
     margin-left: 0px;
 }
 
-button.gen-clear {
-    color: #34D399;
-    font-size: 10px;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-left: 30px;
-    padding: 10px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    max-width: 250px
-}
-
-button.gen-clear:hover {
-    color: #34D399;
-    font-size: 13px;
-    font-weight: bold;
-    margin-top: 50px;
-    margin-left: 30px;
-    padding: 10px;
-    background-color: white;
-    border: none;
-    border-radius: 10px;
-    max-width: 250px
-}
-
-
 .line {
     margin-top: 30px;
     border: 1px solid #2F3E53;
