@@ -55,6 +55,7 @@ div.random-passwords {
     margin-top: 30px;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 #pass1, #pass2 {
